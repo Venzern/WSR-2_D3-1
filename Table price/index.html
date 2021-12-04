@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- тип подключаемого документа -->
+<html lang="en">
+<!-- тип используемого языка на странице -->
+<head>
+  <meta charset="utf-8">
+  <!-- тип используемой кодировки на странице -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- маштабирование для разных устройств -->
+  <link rel="stylesheet" href="style.css">
+  <!-- подключение файла со стилями -->
+  <title>Table price</title>
+  <!-- название заголовка страницы в браузере -->
+</head>
+<body>
+  <div class="content">
+  <!-- div - контейнер с содержимым страницы в данном случае -->
+  <table class="table1">
+  <!-- таблица -->
+	<thead>
+	<!-- "разбивает" таблицу, делая отдельный элемент типа "шапки". Всегда в верху. -->
+	<tr>
+		<th></th>
+		<th>Smart Starter</th> 
+		<th>Smart Medium</th>
+		<th>Smart Business</th>
+		<th>Smart Deluxe</th>
+	</tr>
+	</thead>
+	<tbody>
+	<!-- еще один отдельный элемент таблицы с основным содержим -->
+	<tr>
+		<th>Storage Space</th>
+		<td class="td">512MB</td>
+		<td class="td">1 GB</td>
+		<td class="td">2 GB</td>
+		<td class="td">4 GB</td>
+	</tr>
+	<tr>
+		<th>Bandwidth</th>
+		<td class="td">50 GB</td>
+		<td class="td">100 GB</td>
+		<td class="td">150 GB</td>
+		<td class="td">unlimited</td>
+	</tr>
+	<tr>
+		<th>Mysql Databases</th>
+		<td class="td">unlimited</td>
+		<td class="td">unlimited</td>
+		<td class="td">unlimited</td>
+		<td class="td">unlimited</td>
+	</tr>
+	<tr>
+		<th>Setup</th>
+		<td class="td">12.90 $</td>
+		<td class="td">12.90 $</td>
+		<td class="td">free</td>
+		<td class="td">free</td>
+	</tr>
+	<tr>
+		<th>PHP 5</th>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+	</tr>
+	<tr>
+		<th>Ruby on Rails</th>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+		<td class="mark">✓</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<!-- последний как бы отдельный элемент всегда внизу таблицы типа "подвала" -->
+	<tr>
+		<th>Price per month</th>
+		<td>$ 2.90</td>
+		<td>$ 5.90</td>
+		<td>$ 9.90</td>
+		<td>$ 14.90</td>
+	</tr>
+	</tfoot>
+  </table>
+  </div>
+</body>
+</html>
