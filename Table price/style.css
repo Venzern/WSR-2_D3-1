@@ -31,7 +31,8 @@ body{
  .table1{
     font: 16px/1.4em "Trebuchet MS", sans-serif;
  }
-/* Тип шрифта в таблице. Жирный "рубленный шрифт" семейства "Trebuchet MS" */
+/* Тип шрифта в таблице. Жирный "рубленный шрифт" семейства "Trebuchet MS"
+font: 16px/1.4em в такой записи совмещает font-size и line-height */
 .table1 thead th{
     padding: 15px;
     border: 1px solid #93CE37;
